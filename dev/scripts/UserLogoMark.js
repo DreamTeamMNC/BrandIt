@@ -69,17 +69,17 @@ class UserLogoMark extends React.Component {
         return (
             <div className="userLogoMark-container">
                 <form onSubmit={this.handleSubmit}>
-                    <label className="label-logoMark">
+                        <input className="checked" type="radio" checked value="option1" id="opt1" onChange={this.handleChange} checked={this.state.logoStyle === "option1"} />
+                    <label className="label-logoMark" htmlFor="opt1">
                         <LogoMarkOne choice={this.state.choice} name={this.state.name} color={this.state.color} />
-                        <input className="checked" type="radio" checked value="option1" onChange={this.handleChange} checked={this.state.logoStyle === "option1"} />
                     </label>
-                    <label className="label-logoMark">
+                        <input className="checked" type="radio" checked value="option2" id="opt2" onChange={this.handleChange} checked={this.state.logoStyle === "option2"} />
+                    <label className="label-logoMark" htmlFor="opt2">
                         <LogoMarkTwo choice={this.state.choice} name={this.state.name} color={this.state.color} />
-                        <input className="checked" type="radio" checked value="option2" onChange={this.handleChange} checked={this.state.logoStyle === "option2"} />
                     </label>
-                    <label className="label-logoMark">
+                        <input className="checked" type="radio" checked value="option3" id="opt3" onChange={this.handleChange} checked={this.state.logoStyle === "option3"} />
+                    <label className="label-logoMark" htmlFor="opt3">
                         <LogoMarkThree choice={this.state.choice} name={this.state.name} color={this.state.color} />
-                        <input className="checked" type="radio" checked value="option3" onChange={this.handleChange} checked={this.state.logoStyle === "option3"} />
                     </label>
                     <input type="submit" value="Choose an Icon" className="link-btn"/>
                 </form>

@@ -52,24 +52,24 @@ class UserInputColor extends React.Component {
                     <H2Text className={'mainFont'} text={'Select a Font Color for your Company Title'} />
                     <div className="mainColor">
                         <div className="radio main-color-div">
-                            <label htmlFor="layoutOne" className="btn-color layout-one"></label>
                             <input type="radio" name="mainColor" value="color-one" id="layoutOne" onChange={this.handleOptionChange} />
+                            <label htmlFor="layoutOne" className="btn-color layout-one"></label>
                         </div>
                         <div className="radio main-color-div">
-                            <label htmlFor="layoutTwo" className="btn-color layout-two"></label>
                             <input type="radio" name="mainColor" value={"color-two"} id="layoutTwo" onChange={this.handleOptionChange} />
+                            <label htmlFor="layoutTwo" className="btn-color layout-two"></label>
                         </div>
                         <div className="radio main-color-div">
-                            <label htmlFor="layoutThree" className="btn-color layout-three"></label>
                             <input type="radio" name="mainColor" value={"color-three"} id="layoutThree" onChange={this.handleOptionChange} />
+                            <label htmlFor="layoutThree" className="btn-color layout-three"></label>
                         </div>
                         <div className="radio main-color-div">
-                            <label htmlFor="layoutFour" className="btn-color layout-four"></label>
                             <input type="radio" name="mainColor" value={"color-four"} id="layoutFour" onChange={this.handleOptionChange} />
+                            <label htmlFor="layoutFour" className="btn-color layout-four"></label>
                         </div>
                         <div className="radio main-color-div">
-                            <label htmlFor="layoutFive" className="btn-color layout-five"></label>
                             <input type="radio" name="mainColor" value={"color-five"} id="layoutFive" onChange={this.handleOptionChange} />
+                            <label htmlFor="layoutFive" className="btn-color layout-five"></label>
                         </div>
                     </div>
                     
